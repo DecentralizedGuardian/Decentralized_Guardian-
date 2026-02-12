@@ -1,0 +1,6 @@
+tensorflow==2.15.0
+web3==6.15.1
+numpy==1.26.4
+pandas==2.2.1
+python-dotenv==1.0.0
+pyserial==3.5
