@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Decentralized Guardian</title>
+    <style>
+        body { font-family: sans-serif; background: #0a0c10; color: white; padding: 2rem; }
+        .card { background: #1a1e24; padding: 1.5rem; margin-bottom: 1rem; border-left: 4px solid #3b82f6; }
+        .alert { border-left-color: #ef4444; }
+        pre { background: #0f131a; padding: 1rem; }
+    </style>
+</head>
+<body>
+    <h1>Decentralized Guardian</h1>
+    <p>Live anomaly feed</p>
+    
+    <div class="card">
+        <h3>Water Quality - Bhagta Village</h3>
+        <p>pH: 7.2 | TDS: 342 | Status: Normal</p>
+    </div>
+    
+    <div class="card alert">
+        <h3>⚠️ Anomaly Detected</h3>
+        <pre>{
+  "node": "guardian_03",
+  "type": "fund_discrepancy",
+  "expected": "50000 INR",
+  "actual": "35000 INR"
+}</pre>
+    </div>
+    
+    <div class="card">
+        <h3>Latest Blockchain Proof</h3>
+        <pre>0x1a2b3c4d5e6f7g8h9i0j</pre>
+    </div>
+</body>
+</html>
